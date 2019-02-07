@@ -1,0 +1,7 @@
+SELECT Matches_players.idm, SUM(Matches_players.голы), Matches.счёт;
+ FROM ;
+     data1!matches ;
+    INNER JOIN data1!matches_players ;
+   ON  Matches.idm = Matches_players.idm;
+ GROUP BY Matches_players.idm, Matches.счёт;
+ ORDER BY Matches_players.idm

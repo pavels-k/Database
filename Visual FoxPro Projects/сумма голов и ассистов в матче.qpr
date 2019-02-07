@@ -1,0 +1,5 @@
+SELECT SUM(Matches_players.голы), Matches_players.idm,;
+  SUM(Matches_players.ассисты);
+ FROM ;
+     data1!matches_players;
+ GROUP BY Matches_players.idm

@@ -1,0 +1,9 @@
+SELECT Players.фамилия, Club.клуб, Matches_players.голы;
+ FROM ;
+     data1!players ;
+    INNER JOIN data1!matches_players ;
+   ON  Players.idp = Matches_players.idp ;
+    INNER JOIN data1!club ;
+   ON  Club.idc = Players.idc;
+ WHERE  Matches_players.голы > 0;
+   AND  Matches_players.idm = 4
